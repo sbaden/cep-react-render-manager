@@ -52,9 +52,6 @@ const styles = {
     prioritySlider: {
         padding: 10,
     },
-    sliderDiv: {
-        
-    },
     selectionGroups: {
         marginLeft: 10,
     }
@@ -90,7 +87,7 @@ export default class RenderManager extends React.Component {
 	                <div>
 			            <div>
 							<CardText>Priority: {deadlinePriorityValue}</CardText>
-                            <div >
+                            <div>
                                 <Slider
                                     style={styles.prioritySlider}
                                     min={0}

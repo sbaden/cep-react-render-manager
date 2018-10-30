@@ -27,20 +27,17 @@ const muiTheme = getMuiTheme(darkBaseTheme, {
         accent2Color: orange700,
         accent3Color: orange700
     },
-    typography: {
-        fontSize: 5,
-      },
 });
 
 const styles = {
     width: 300,
-    margin: 15,
+    margin: 0,
     padding: 5,
     display: 'inline-block',
     backgroundColor: '#242424',
     button: {
         textAlign: 'center',
-        margin: 10,
+        margin: 5,
     },
 };
 
